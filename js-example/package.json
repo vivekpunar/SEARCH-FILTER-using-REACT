@@ -1,0 +1,59 @@
+{
+  "name": "react-hot-boilerplate",
+  "version": "1.0.0",
+  "description": "Boilerplate for ReactJS project with hot code reloading",
+  "scripts": {
+    "start": "node server.js",
+    "lint": "eslint src",
+    "dist": "webpack --config webpack.prod.config.js --progress -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gaearon/react-hot-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "boilerplate",
+    "hot",
+    "reload",
+    "hmr",
+    "live",
+    "edit",
+    "webpack"
+  ],
+  "author": "Dan Abramov <dan.abramov@me.com> (http://github.com/gaearon)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gaearon/react-hot-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gaearon/react-hot-boilerplate",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^1.0.1",
+    "fixed-data-table": "^0.6.5",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "react-hot-loader": "^4.3.12",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.27.0",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15",
+    "react": "^16.6.3",
+    "react-day-picker": "^5.3.0",
+    "react-dom": "^16.6.3",
+    "react-filter-box": "^3.4.1",
+    "react-icons": "^2.2.3"
+  },
+  "resolutions": {
+    "set-value": "2.0.1",
+    "mixin-deep": "1.3.2"
+  }
+}
